@@ -5,7 +5,7 @@ usage() {
 }
 
 download() {
-  URL=https://raw.githubusercontent.com/felixge/node-style-guide/master/$1
+  URL=https://raw.githubusercontent.com/jonatasleon/node-style-guide/master/$1
   echo $URL
   curl -O $URL
 }
